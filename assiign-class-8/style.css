@@ -1,0 +1,299 @@
+body{
+   padding: 0;
+   margin: 0;
+   font-family: 'Lato', sans-serif;
+}
+
+ul, p, h1, h2, h3, h4, h5, h6{
+   padding: 0;
+   margin: 0;
+}
+
+
+header{
+   background-color: #f6f9f9;
+   width: 100%;
+   float: left;
+   height: 60px;
+   box-shadow: 1px 1px 2px #fff;
+
+}
+.logo-area{
+   text-align: center;
+   padding: 5px;
+}
+
+.menu-area  {
+   text-align: center;
+   padding: 5px;
+}
+ul{
+   list-style: none;
+}
+
+ul li{
+   display: inline-block;
+   padding: 10px ;
+
+}
+
+.menu-area ul li a{
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 600;
+   text-transform: capitalize;
+   color: black;
+}
+.menu-area ul li:hover , .menu-area ul li.active {
+   background: #15A4FA;
+   padding: 3px;
+   transition: .3s;
+   box-shadow: 1px 2px 3px green;
+}
+
+/* hero section */
+
+.hero {
+   background-image: url(image/bground.png);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   float: left;
+ 
+}
+
+.hero-content {
+   width: 500px;
+   height: 300px;
+   padding-top: 180px;
+   margin: 0 auto;
+   text-align: center;
+}
+.hero-content h2 {
+	font-size: 4rem;
+	color: #fff;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+span{
+   width: 100%;
+   display: block;
+   border: 1px solid #15A4FA;
+   margin: 0 auto;
+   margin-bottom: 10px;
+}
+.hero-content p{
+   color: #fff;
+   font-size: 18px;
+   font-weight: 400px;
+   margin: 20px 0;
+   
+}
+
+.hero-content .btn {
+	color: #fff;
+	border: 1px solid #15A3F8;
+	margin-top: 40px;
+}
+.hero-icon{
+   
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+}
+.fa.fa-angle-down {
+	margin-top: 250px;
+	margin-bottom: 80px;
+}
+.feature{
+   width: 100%;
+   float: left;
+   padding: 60px 0;
+   text-align: center;
+   background-color: #f6f9f9;
+}
+.feature h2{
+   padding: 5px;
+   font-size: 40px;
+   color: #575f6f;
+   font-weight: 600;
+}
+.feature p{
+   padding: 5px;
+   font-size: 18px;
+   color: 999999;
+   font-weight: 400;
+}
+/* feature-icon */
+.feature-icon {
+	width: 100%;
+   float: left;
+   overflow: hidden;
+	background: #fff;
+}
+.single-feature {
+	text-align: center;
+	padding: 50px 5px;
+	
+}
+.single-feature .icon{
+   width: 40px;
+   height: 40px;
+   background-color: #15A4FA;
+   padding: 8px 0 3px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+
+
+}
+.single-feature h3{
+   padding: 5px;
+   font-size: 25px;
+   color: #575f6f;
+   font-weight: 400;
+}
+.single-feature p{
+   padding: 5px;
+   font-size: 15px;
+   color: 999999;
+   font-weight: 300;
+}
+/* gal-picture */
+.picture-gal {
+   background: #f6f9f9;
+   width: 100%;
+   float: left;
+}
+.gal-content{
+   padding: 30px 0;
+   text-align: center;
+	margin: 0 auto;
+	
+}
+
+.gal-content h3{
+   font-size: 23px;
+   padding-top: 20px;
+   letter-spacing: .03em;
+   color: #575f6f;
+}
+.gal-content p{
+   padding: 5px;
+   font-size: 15px;
+   color: 999999;
+   font-weight: 300;
+}
+.gal-picture{
+   padding-bottom: 20px;
+}
+.single-gal{
+   float: left;
+   padding: 10px 0;
+   
+}
+/* contact */
+
+.contact{
+   width: 100%;
+   float: left;
+   background-color: #2d384c;
+}
+.contact-text,
+.contact-form{
+   width: 50%;
+   height: auto;
+   margin: 0 auto;
+   
+}
+.contact-text{
+  
+   padding: 50px 0;
+
+}
+.contact-text h3{
+   font-size: 25px;
+   font-weight: 400;
+   color: #ffffff;
+   padding: 5px 0;
+}
+.contact-text p{
+   font-size: 12px;
+   font-weight: 300;
+   color: #999999;
+   padding: 5px 0;
+}
+
+.contact-form input   {
+   width: 100%;
+   background-color: transparent;
+   padding: 10px;
+   border: 1px solid #15A4FA;
+   border-radius: 5px;
+   margin-bottom: 10px ;
+}
+.contact-form ::placeholder{
+   color: #ffffff;
+   
+}
+textarea{
+   width: 100%;
+   border: 1px solid #15A4FA;
+   background-color: transparent;
+   padding: 10px;
+}
+
+.form-footer{
+   color: #fff;
+   width: 100%;
+}
+.form-footer-left{
+   width: 40%;
+   float: left;
+}
+.form-footer-right {
+   width: 20%;
+   float: right;
+  
+}
+.form-footer-left input {
+	float: left;
+	width: 0;
+	margin-top: 37px;
+}
+
+.form-footer-left label {
+   padding: 30px 5px;
+}
+
+.form-footer-right input{
+   color: #ffffff;
+   margin-top: 20px;
+}
+footer{
+   background: #f6f9f9;
+   width: 100%;
+   height: auto;
+   float: left;
+}
+
+.footer-area h5{
+   color: #999999;
+   padding: 10px 0;
+   
+      
+}
+.f-icon{
+   float: right;
+   
+}
+.f-icon ul li {
+   background-color:  #15a4fa;
+   padding: 0px 6px;
+   margin-right: 3px;
+   margin-top: 8px;
+}
+.f-icon ul li a{
+   color: #fff;
+   padding: 5px;
+   font-size: 12px;
+}
